@@ -1,2 +1,2 @@
-# amz-toolkit
-amz-toolkit
+# amazon-api-toolkit
+amazon-api-toolkit
