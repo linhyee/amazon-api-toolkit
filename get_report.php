@@ -40,7 +40,7 @@ $tmp = __DIR__.DS.'tmp';
 if (!is_dir($tmp))
     mkdir($tmp, 0755);
 
-$default_filename = $account['account_name'].'_report_'.date('Y_d_m_H', time()).'.xls';
+$default_filename = $account['short_name'].'_report_'.date('Y_d_m_H', time()).'.xls';
 
 if (!$filename)
     $filename = __DIR__.DS.TMP.DS.$default_filename;

@@ -9,6 +9,7 @@ function usage() {
         "\t -h help message\r\n",
         "\t -n <id> id or account name or short name\r\n",
         "\t -t <type> feed type\r\n",
+        "\t --file=<filename> file name\r\n",
         "\t --par=<true|false> PurgeAndReplace\r\n",
     ];
     print implode('', $usage);

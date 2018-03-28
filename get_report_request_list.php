@@ -1,5 +1,6 @@
 #!/usr/bin/php
 <?php
+echo rawurlencode('http://baidu.com/2010-10-10/a?b=c e');exit;
 if (php_sapi_name() != 'cli') trigger_error('use in cli mode', E_USER_ERROR);
 
 function usage() {
